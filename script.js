@@ -35,8 +35,8 @@ function createProductCard(cardData) {
         blockEl.appendChild(textEl);
         blockEl.appendChild(removeButtonEl);
         
-        const cardEl = document.querySelector('.card');
-        cardEl.appendChild(blockEl);
+        const cartEl = document.querySelector('.cart');
+        cartEl.appendChild(blockEl);
         
     });
 
